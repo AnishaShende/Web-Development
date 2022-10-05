@@ -6,14 +6,17 @@
 }
 
 body {
-	background: #f2f2f2;
-	overflow: auto;
+	/* background-image: linear-gradient(45deg, #8ca7f8 0%, #f8dd8c 100%); */
+	background-color: #A0F0CD;
+	/* background-color: #ff00ff; */
+	/* background-repeat: no-repeat; */
+	overflow: hidden;
 }
 
 h1{
 	text-align: center;
 	margin: 5%;
-	font-size: 3rem;
+	font-size: 5rem;
 	text-decoration: underline;
 }
 
@@ -27,8 +30,28 @@ ul {
 
 li:hover{
 	color:red;
-	margin: 4%;
+	margin: 0.5%;
 	transition: 1.5s ease;
 	cursor: pointer;
 }
 
+/* 
+element.style {
+    width: 10vw;
+}
+@media (min-width: 768px)
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+} */
+/* .btn-primary */
+.form-group {
+    color: #fff;
+    background-color: #9d3ed6;
+    border-color: #cfacea;
+}
